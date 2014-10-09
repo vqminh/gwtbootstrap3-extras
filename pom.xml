@@ -12,7 +12,14 @@
     <name>GwtBootstrap3 Extras</name>
     <description>Extra, third-party widgets/components for GwtBootstrap3</description>
     <url>http://gwtbootstrap3.org</url>
-    <version>0.9-custom</version>
+    <version>0.9.c-SNAPSHOT</version>
+
+    <distributionManagement>
+      <snapshotRepository>
+        <id>ato-snapshots</id>
+        <url>http://54.69.194.215:8081/nexus/content/repositories/snapshots</url>
+      </snapshotRepository>
+    </distributionManagement>
 
     <scm>
         <connection>scm:git:git@github.com:gwtbootstrap3/gwtbootstrap3-extras.git</connection>
